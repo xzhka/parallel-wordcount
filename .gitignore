@@ -1,0 +1,21 @@
+# build output
+build/
+out/
+cmake-build-*/
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.ipch
+*.suo
+*.user
+*.tlog
+*.db
+# generated benchmark data
+big*.txt
