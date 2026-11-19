@@ -1,7 +1,7 @@
 <h1 align="center">Parallel Wordcount</h1>
 <p align="center">
   <b>Sequential vs. multithreaded word counting, with a built-in correctness check and measured speedup</b><br>
-  C++17 · std::thread · CMake · no mutex needed · Windows / Linux / macOS
+  C++17 · std::thread · CMake · Windows / Linux / macOS
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue?logo=cplusplus" alt="C++17">
@@ -97,7 +97,7 @@ It runs `f(a)` and `f(b)` on two threads, then repeats both calls on one thread 
 
 ## Results
 
-**Machine:** AMD Ryzen 9 7900X (12 cores / 24 threads), 31 GB RAM, Windows, MSVC 19.44 (Visual Studio 2022), CMake 4.3.1, Release build.
+**Machine:** AMD Ryzen 9 7900X (12 cores / 24 threads), 32 GB RAM, Windows, MSVC 19.44 (Visual Studio 2022), CMake 4.3.1, Release build.
 **Input:** `python tools/gen_text.py 100 big.txt` (100 MiB, 1,075,124 lines, 16,134,108 words), chunk size 100 (10,752 chunks).
 
 | threads | sequential (ms) | parallel (ms) | speedup | speedup incl. chunking |
