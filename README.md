@@ -30,7 +30,7 @@ This started as a multithreading study some years ago. I revisited it, fixed its
 
 ## Build
 
-Needs a C++17 compiler and CMake 3.16 or newer. CI builds on Windows, Linux and macOS.
+Needs a C++17 compiler and CMake 3.16 or newer. Tested with MSVC 19.44 on Windows and GCC 15.2 on Linux (Ubuntu under WSL2).
 
 ```bash
 cmake -S . -B build

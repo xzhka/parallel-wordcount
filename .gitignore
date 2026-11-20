@@ -19,3 +19,6 @@ x64/
 *.db
 # generated benchmark data
 big*.txt
+build-debug/
+build-tsan/
+in.txt
